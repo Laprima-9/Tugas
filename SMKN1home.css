@@ -1,0 +1,348 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('Laman3.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top:40px; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #37517e;
+    align-items: center;
+    padding: 1.5rem;
+    position: fixed; /* Navbar tetap di atas */
+    width: 100%;
+    z-index: 1000; /* navbar tetap di atas konten lainnya */
+    top: 0;
+}
+
+.logo {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #1e90ff;
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    text-align: left;
+    color: white;
+    width: 700px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.content h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.content a.watch-video {
+    color: #1e90ff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: text-decoration 0.3s;
+}
+
+.content a.watch-video:hover {
+    text-decoration: underline;
+}
+
+.content a.watch-video i {
+    margin-right: 0.5rem;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -650px;
+    }
+
+.logo-container img {
+    width: 35rem;
+    height: 33rem;
+}
+
+.jurusan{
+    background-color: #f3f5fa;
+    height: 900px;
+}
+span{
+    color: rgb(0, 179, 255);
+}
+
+.Proke{
+    color: #37517e;
+}
+
+
+.gambar{
+    position: relative;
+    left: 750px;
+    bottom: 500px
+   
+}
+
+.deskripsi{
+    padding-top:150px ;
+    padding-left:150px ;
+}
+
+.pk{
+    position: relative;
+    top: 10px;
+}
+
+.akl{
+    margin: 50px 50px;
+    background-color: white;
+    width: 380px;
+    height: 60px;
+    position: relative;
+    left: 100px;
+    bottom: 20px;
+}
+
+.Teks-1{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.akl ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.pm{
+    margin: 50px 50px;
+    background-color: white;
+    width: 380px;
+    height: 60px;
+    position: relative;
+    left: 100px;
+    bottom: 40px;
+}
+
+.teks2{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.pm ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.mpk{
+    margin: 50px 50px;
+    background-color: white;
+    width: 380px;
+    height: 60px;
+    position: relative;
+    left:100px;
+    bottom: 60px;
+}
+
+.teks3{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.mpk ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.rpl{
+    margin: 50px 50px;
+    background-color: white;
+    width: 380px;
+    height: 60px;
+    position: relative;
+    left: 100px;
+    bottom: 80px;
+}
+
+.teks4{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.rpl ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.dkv{
+    margin: 50px 50px;
+    background-color: white;
+    width: 380px;
+    height: 60px;
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+}
+
+.teks5{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.dkv ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.paragraf{
+    padding-top: 100px;
+    padding-left: 30px;
+    width: 1300px;
+    color: white;
+    
+}
+
+.album{
+    padding-top: 80px;
+    position: relative;
+}
+
+.headal{
+    color: white;
+    padding: 10px 10px;
+    margin-bottom: 50px;
+    position: relative;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.box1{
+    border: 1px solid white;
+    border-radius: 8px;
+   position: relative;
+  padding: 10px 10px;
+  transition: all 1s;
+}
+
+.box1:hover{
+    padding: 20px 20px;
+}
+
+.box2{
+    border: 1px solid white;
+    position: relative;
+    border-radius: 8px;
+    padding: 10px 10px;
+    transition: all 1s;
+}
+
+.box2:hover{
+    padding: 20px 20px;
+}
+
+.box3{
+    border: 1px solid white;
+    position: relative;
+    border-radius: 8px;
+    padding: 10px 10px;
+    transition: all 1s;
+}
+
+.box3:hover{
+    padding: 20px 20px;
+}
+
+.box4{
+    border: 1px solid white;
+    position: relative;
+    border-radius: 8px;
+    padding: 10px 10px;
+    transition: all 1s;
+}
+
+.box4:hover{
+    padding: 20px 20px;
+}
+
+
+.peta{
+   position: relative;
+   top: -30px;
+   bottom: 20px;
+   left: 850px;
+}
+
+.lokasi{
+    color: white;
+    position: relative;
+    top: 150px;
+    width: 500px;
+    left: 150px;
+    font-size: 20px;
+}
+
+.maps{
+    position: relative;
+    top: 300px;
+}
+
+.footer{
+    padding: 20px 20px;
+    color: white;
+    position: relative;
+    text-align: center;
+    background-color: #37517e;
+    bottom: -400px;
+}
